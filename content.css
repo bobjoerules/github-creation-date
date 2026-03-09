@@ -1,0 +1,10 @@
+.gh-repo-creation-date {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.gh-repo-creation-date svg {
+    flex-shrink: 0;
+    margin-right: 12px !important;
+}
