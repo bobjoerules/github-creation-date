@@ -1,6 +1,6 @@
 # <img width="40" height="40" alt="image" src="https://github.com/user-attachments/assets/b2c63202-0f20-49df-9559-15b757856640" /> GitHub Repo Creation Date Extension
 
-A browser extension for browsers that displays the creation date of any GitHub repository.
+A browser extension that displays the creation date of any GitHub repository.
 
 ## Links
 
