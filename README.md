@@ -1,8 +1,14 @@
+<img width="120" height="120" alt="image" src="https://github.com/user-attachments/assets/b2c63202-0f20-49df-9559-15b757856640" />
 # GitHub Repo Creation Date Extension
 
 A browser extension for browsers that displays the creation date of any GitHub repository.
 
-## Installation
+## Links
+
+- Chrome: https://chromewebstore.google.com/detail/github-repo-creation-date/pdhoihimginoiikkbbmbdpfclbbmpiae
+- Firefox: https://addons.mozilla.org/en-US/firefox/addon/github-repo-creation-date/
+
+## Local Installation
 
 ### Chrome / Edge / Brave
 1. Open your browser and go to `chrome://extensions/`.
