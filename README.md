@@ -25,3 +25,5 @@ The extension injects a small content script that:
 1. Locates the JSON metadata embedded by GitHub in a `<script>` tag.
 2. Recursively searches for the `createdAt` property within the repository object.
 3. Formats the date and injects it into the repository about area.
+
+<img width="1280" height="800" alt="image" src="https://github.com/user-attachments/assets/70c58114-310a-4abe-9724-f27216ba93c4" />
