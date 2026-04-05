@@ -24,4 +24,4 @@ A browser extension that displays the creation date of any GitHub repository.
 The extension injects a small content script that:
 1. Locates the JSON metadata embedded by GitHub in a `<script>` tag.
 2. Recursively searches for the `createdAt` property within the repository object.
-3. Formats the date and injects it into the repository header
+3. Formats the date and injects it into the repository about area.
