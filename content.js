@@ -29,16 +29,11 @@
 
         if (!aboutSection) return null;
 
-        const topics = aboutSection.querySelector('.topic-tag')?.closest('.tmp-my-3') ||
-            aboutSection.querySelector('.topic-tag')?.closest('div') ||
-            aboutSection.querySelector('.list-topics-container');
-        if (topics) {
-            return { element: topics, position: 'afterend' };
-        }
+        const containers = Array.from(aboutSection.querySelectorAll('p.f4, div.tmp-my-3, .list-topics-container'));
 
-        const description = aboutSection.querySelector('p.f4') || aboutSection.querySelector('.f4');
-        if (description) {
-            return { element: description, position: 'afterend' };
+        if (containers.length > 0) {
+            const lastContainer = containers[containers.length - 1];
+            return { element: lastContainer, position: 'afterend' };
         }
 
         const h2 = aboutSection.querySelector('h2');
