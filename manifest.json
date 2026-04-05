@@ -1,14 +1,22 @@
 {
   "manifest_version": 3,
   "name": "GitHub Repo Creation Date",
-  "version": "1.0",
+  "version": "1.1",
   "description": "Displays the creation date of GitHub repositories in the sidebar.",
-  "permissions": ["activeTab"],
+  "permissions": [
+    "activeTab"
+  ],
   "content_scripts": [
     {
-      "matches": ["https://github.com/*/*"],
-      "js": ["content.js"],
-      "css": ["content.css"],
+      "matches": [
+        "https://github.com/*/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "css": [
+        "content.css"
+      ],
       "run_at": "document_end"
     }
   ],
